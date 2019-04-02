@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'freightround_probold';
+    src: url('type/freightroundprobold-webfont.woff2') format('woff2'),
+     url('type/freightroundprobold-webfont.woff') format('woff');
+font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+font-family: 'freightround_probook';
+    src: url('type/freightroundprobook-webfont.woff2') format('woff2'),
+     url('type/freightroundprobook-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}	
+
+@font-face {
+    font-family: 'freightround_prolight';
+    src: url('type/freightroundprolight-webfont.woff2') format('woff2'),
+     url('type/freightroundprolight-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+h1 { font-family: freightround_probold; }
+
+p { font-family: 'PT Sans', sans-serif; }
+
+footer p a {font-family: 'Sarabun', sans-serif;}
+.social {font-size: 3em; color: blue };

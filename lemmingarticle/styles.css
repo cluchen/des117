@@ -1,0 +1,53 @@
+article { 
+    width: 750px; 
+    margin: auto;   
+    background-color: lavender;
+    padding-left: 20px; 
+    padding-right: 20px; 
+    padding-top: 10px; 
+    padding-bottom: 40px;
+    color:gray;
+    font-family: Helvetica, sans-serif; 
+}
+body { 
+    background-color: black; 
+}
+nav ul { 
+    list-style-type: none; 
+    padding-left: 25px; 
+    padding-bottom: 20px; 
+}
+
+nav ul li a { 
+    text-decoration: none; 
+    font-size: 15px; 
+    color: black;
+    text-transform: uppercase; 
+
+}
+h1 { 
+    text-transform: uppercase;
+    color:black;
+    padding-left: 25px; 
+}
+.introduction { 
+    text-align: justify;
+    padding-top: 40px; 
+    padding-left: 25px; 
+    padding-right: 30px;
+    color: black; 
+}
+#behavior, #description, #misconceptions, #culture { 
+    text-align: justify;
+}
+
+h2 { 
+    text-transform: uppercase;
+    color:black;
+}
+img { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}

@@ -1,0 +1,164 @@
+/*HOME*/ 
+
+.index {
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(images/background.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    color: white; 
+}
+
+body {
+    font-size: small; 
+    line-height: 140%; 
+    text-align: justify; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    padding: 10px 270px 10px 270px; 
+    text-transform: uppercase; 
+    text-align: center; 
+}
+
+#content {
+    padding-top: 60px; 
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%; 
+}
+
+#content article {
+    padding: 10px 0px 50px 0px; 
+}
+
+#content a {
+    text-decoration: none; 
+    text-transform: uppercase;
+    color: lightblue; 
+}
+
+h2 { 
+    font-size: medium;   
+    padding-bottom: 30px; 
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+footer {
+    padding: 130px 0px 20px 0px; 
+    text-align: center; 
+}
+
+.index footer p a {
+    color: lightblue;  
+}
+
+footer p a {
+    text-decoration: none; 
+    text-transform: uppercase;
+    color: black;  
+}
+
+/*POSTS*/ 
+
+.posts {
+    background: white; 
+    background-size: cover;
+    color: black; 
+}
+
+.row {
+    display: flex;
+}
+
+.left {
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(images/blog_site.jpg) no-repeat center center fixed;
+    width: 35%; 
+}
+  
+.right {
+    width: 65%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+article img {
+    width: 100%; 
+    height: auto;  
+}
+ 
+article {
+    padding: 90px 200px 0px 200px; 
+}
+
+/* NAV */ 
+
+#mainnav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li a {
+	display: block;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: lightgray;
+	font-size: 1em;
+	text-align: center;
+    padding: 20px 20px 20px 0px; 
+	text-decoration: none;
+    background: slategray;
+}
+
+a:hover {
+	color: black;
+}
+
+/* MEDIA */ 
+
+@media only screen and (max-width: 600px) {
+	header {
+		padding: 100px;
+    }
+    
+    nav ul {
+        display: inline-block;
+        width: 100%; 
+	}
+
+	nav ul li {
+		min-height: 10px;
+	}
+
+    #content {
+        width: 80%; 
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+	nav ul {
+        display: flex;
+	}
+	
+	nav ul li {
+        flex:1;
+        width: 100%;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	header {
+		margin: auto;
+	}
+}

@@ -1,0 +1,70 @@
+/**************************
+RESET to ensure user agent padding and 
+margin on elements do not affect layout.
+
+Note this reset is not appropriate for
+production websites.
+***************************/
+
+* {margin: 0; padding: 0;}
+
+body {
+	font-family: Arial;
+	color:#333;
+	background-color: #E2E2E2;
+}
+
+main { 
+	width: 1000px;
+	padding: 20px; 
+	margin: auto; 
+	display: block; 
+}
+
+header { 
+	padding: 50px 0; 
+	background-color: azure;
+	text-align: center; 
+}
+
+p, h2 {
+	margin-bottom:  lem; 
+}
+
+footer {
+	background-color: azure;
+	padding: 50px; 
+	text-align: center; 
+}
+
+#one { 
+	display: flex; 
+	justify-content: space-between;
+	background-color: aqua; 
+}
+
+#two { 
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: #D5D5D5;
+	padding:20px;
+}
+
+#two h2 {
+	flex: 100%; 
+	text-align: center;
+}
+
+#one article:nth-child(2) { 
+	background-color: beige;
+}
+
+#one article {
+	background-color: bisque;
+	width: 31.5%
+}
+
+#two article { 
+	width: 48%;
+}

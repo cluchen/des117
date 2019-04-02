@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: Arial;
+    background:#CCC;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgba(52,76,170,0.5);
+    height: 100px;
+    line-height: 100px;
+    position:fixed; 
+    top: 0; 
+    width: 100%; 
+}
+
+p {
+    line-height: 22px;
+    margin-bottom: 16px;
+}
+
+section {
+    border: 2px solid black;
+    width:600px;
+    margin:200px auto;
+    background:#fff;
+    padding:20px;
+}
